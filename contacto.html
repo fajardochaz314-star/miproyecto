@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto y Reservaciones</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Regresar al Inicio</a>
+    </nav>
+    <hr>
+    
+    <center>
+        <h1>Contacto</h1>
+        <marquee direction="left" bgcolor="orange">
+            <h1>¡DÉJANOS UN MENSAJE O HAZ TU RESERVACIÓN!</h1>
+        </marquee>
+        
+        <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=500" width="350" alt="Atención">
+        <br><br>
+
+        <div style="background-color: #f9f9f9; padding: 20px; width: 450px; border: 2px solid #ccc; border-radius: 10px;">
+            <h3>Formulario de Mensajes</h3>
+            <form action="#" method="post">
+                <table border="0" cellpadding="8">
+                    <tr>
+                        <td align="right"><b>Nombre completo:</b></td>
+                        <td><input type="text" name="nombre" placeholder="Ej. Juan Pérez" required size="30"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><b>Correo Electrónico:</b></td>
+                        <td><input type="email" name="email" placeholder="ejemplo@correo.com" required size="30"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><b>Asunto:</b></td>
+                        <td>
+                            <select name="asunto" style="width: 100%;">
+                                <option value="reservacion">Reservación</option>
+                                <option value="pedido">Pedido a domicilio</option>
+                                <option value="queja">Sugerencia/Queja</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" valign="top"><b>Mensaje:</b></td>
+                        <td><textarea name="mensaje" rows="5" cols="28" placeholder="Escribe tu mensaje aquí..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <br>
+                            <input type="submit" value="Enviar Mensaje" style="background-color: orange; color: white; padding: 10px 20px; border: none; cursor: pointer; font-weight: bold; border-radius: 5px;">
+                            <input type="reset" value="Limpiar Campos" style="padding: 10px 20px; cursor: pointer; border-radius: 5px;">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <br>
+        <hr width="50%">
+        
+        <h3>Atención Directa</h3>
+        <table border="1" cellpadding="10" style="border-collapse: collapse;">
+            <tr bgcolor="#eeeeee">
+                <td><b>WhatsApp</b></td>
+                <td>7551144152</td>
+            </tr>
+            <tr>
+                <td><b>Email</b></td>
+                <td>fajardochaz@gmail.com</td>
+            </tr>
+        </table>
+        
+        <p><i>Atendido por: <b>Angel Fajardo Chavez</b></i></p>
+    </center>
+</body>
+</html>
